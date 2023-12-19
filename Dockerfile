@@ -2,7 +2,7 @@ FROM python:3.11-slim-buster
 
 ENV PYTHONFAULTHANDLER=1 \
     PYTHONUNBUFFERED=1 \
-    POETRY_VERSION=1.1.7
+    POETRY_VERSION=1.7.1
 
 RUN apt-get update -qq \
     && DEBIAN_FRONTEND=noninteractive apt-get install -yq --no-install-recommends \
